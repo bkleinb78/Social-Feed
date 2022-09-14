@@ -1,4 +1,4 @@
-mport React, {useState, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import './LikeDislikePost.css'
 
 const LikeDislikePost = (props) => {
@@ -56,3 +56,5 @@ const LikeDislikePost = (props) => {
         </div>
     )
 }
+
+export default LikeDislikePost;

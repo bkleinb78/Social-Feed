@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavBar from './Components/NavBar/NavBar';
 import CreatePost from './Components/CreatePost/CreatePost';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
-import './app.css'
+import './App.css'
 
 
 function App() {
