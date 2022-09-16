@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.all-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  margin: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar h3 {
+  font-weight: normal;
+  font-size: 2em;
+  margin-left: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar small {
+  color: gray;
+  font-size: 1em;
+}
+
+.content-container {
+  background-color: rgb(226, 242, 238);
+  padding-top: 1em;
+}
+
+.form-container {
+  background-color: white;
+  padding: 2em;
+  display: block;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 25%;
+  margin-left: 25%;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px lightgray;
 }
 
-.App-link {
-  color: #61dafb;
+.form-group {
+  margin: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.create-post-date {
+  margin-top: .25em;
+  font-style: italic;
+  font-size: small;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 4em;
+}
+
+.post {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px lightgray;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 1.5em;
+  padding: 1em;
+  
+}
+
+.bottom-content-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  margin-top: 1em;
+  font-size: small;
+  font-style: italic;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.button-wrapper button {
+  margin: .5em;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 2px 2px 2px lightgray;
+  color: whitesmoke;
+}
+
+.button-img img {
+  height: 100%;
+
 }
