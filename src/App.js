@@ -9,18 +9,18 @@ function App() {
 
   const [posts, setPosts] = useState([
     {
-      name: 'DuckMan', 
-      post: 'Lets Hunt',
+      name: 'Don Johnson', 
+      post: 'Lets Party',
       like: false,
       dislike: false,
-      date: '4-22-2022'
+      date: '9-10-2022'
     },
     {
       name: 'Administrator', 
-      post: 'Welcome to Hunt Social Feed!',
+      post: 'Welcome to the Social Feed!',
       like: false,
       dislike: false,
-      date: '4-22-2022'
+      date: '9-10-2022'
     }, 
   ])
 
